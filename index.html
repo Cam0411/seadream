@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seo Dream</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="reponsive.css">
+</head>
+<body>
+    <div id="header">
+       <div class="grid">
+           <div class="header__content">
+               <div class="header__heading">
+                   <h1 class="header__heading-logo">SEO Dream <img src="logo-icon.png"> </h1>
+               </div>
+               <ul class="header__nav">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Features </a></li>
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#"> Services</a></li>
+                 <li><a href="#">Portfolio</a></li>
+                 <li><a href="#">  Contact Us </a></li>
+                 <li class="header__nav-color"><a href="#"><span class="header__nav-color-2"> Get Your Quote </span> </a></li>
+               </ul>
+           </div>
+           <div class="menu__tablet">
+            <i class="fas fa-bars"></i>
+           </div> 
+       </div>
+    </div>
+    <div id="slider">
+        <img class="slider__left" src="banner-dec-left.png" alt="" srcset="">
+        <img class="slider__right" src="banner-dec-right.png" alt="" srcset="">
+         <div class="grid">
+             <div class="slider__content">  
+              
+                 <div class="slider__content-sub">
+             <ul class="slider__nav">
+                 <li><span class="slider__nav-color"> Agency Status: </span>  <br> Ready Work </li>
+                 <li><span class="slider__nav-color"> Price: </span> <br> $720/Month</li>
+                 <li><span class="slider__nav-color"> ASchedules: </span> <br> $450/Meeting</li>
+                
+             </ul>
+             <div class="slider__heading">
+                <h1 class="slider__heading-txt">SEO & Digital Marketing Agency</h1>
+                <p class="slider__heading-about">Get Your Quote</p>
+            </div>
+        </div>  
+             <img class="slider__img-banner" src="banner-right-image.png" alt="" srcset="">
+            </div>
+         </div>
+    </div>
+    <div id="content">
+         <div class="grid">
+             <div class="content__all-txt"> 
+             <div class="content__box">
+                 <div class="content__box-top">
+                   <div class="content__sm-box">
+                    <div class="content__background-img">01</div>
+                    <i class="fas fa-users"></i>
+                       <h1 class="content__sm-box-heading">Reach Out</h1>
+                        <p class="content__box-about">This HTML5 template is based on Bootstrap 5 CSS. You are free to customize anything.</p>
+                   </div>
+                   <div class="content__sm-box">
+                    <div class=" content__background-img-2 ">02</div>
+                    <i class="fas fa-users"></i>
+                    <h1 class="content__sm-box-heading">Develop</h1>
+                     <p class="content__box-about">This HTML5 template is based on Bootstrap 5 CSS. You are free to customize anything.</p>
+                </div>
+                <div class="content__sm-box">
+                    <div class=" content__background-img-3">03</div>
+                    <i class="fas fa-users"></i>
+                    <h1 class="content__sm-box-heading">implementation</h1>
+                     <p class="content__box-about">This HTML5 template is based on Bootstrap 5 CSS. You are free to customize anything.</p>
+                </div>
+                <div class="content__sm-box">
+                  <div class=" content__background-img-4">04</div>
+                  <i class="fas fa-users"></i>
+                    <h1 class="content__sm-box-heading">Analyze</h1>
+                     <p class="content__box-about">This HTML5 template is based on Bootstrap 5 CSS. You are free to customize anything.</p>
+                </div>
+                 </div>
+                 <div class="content__box-bottom">
+                     <div class="content__box-sm-bottom">
+                         <h1 class="content__percent">
+                             80% <br> <span class="content_box-sm-font"> HTML/CSS/JS  </span>
+                         </h1>
+                     </div>
+                     <div class="content__box-sm-bottom">
+                        <h1 class="content__percent content__percent-1">
+                            60%  <br>  <span class="content_box-sm-font">  WORDPRESS  </span>
+                        </h1>
+                    </div>
+                    <div class="content__box-sm-bottom">
+                        <h1 class="content__percent content__percent-2">
+                            90% <br>  <span class="content_box-sm-font"> MARKETING</span>
+                        </h1>
+                    </div>
+                    <div class="content__box-sm-bottom">
+                        <h1 class="content__percent content__percent-3">
+                            70%   <br>  <span class="content_box-sm-font"> PHOTOSHOP </span> 
+                        </h1>
+                    </div>
+                 </div>
+             </div>
+            </div>
+         </div>
+    </div>
+    <div id="footer">
+
+    </div>
+    <div class="modal">
+        <div class="modal__content">
+            <div class="modal__content-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="modal__nav"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features </a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#"> Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">  Contact Us </a></li>
+            <li class="header__nav-color"><a href="#"><span class="header__nav-color-3"> Get Your Quote </span> </a></li>
+          </ul>
+        </div>
+    </div>
+    <script>
+        const menus = document.querySelectorAll(".menu__tablet")
+        const modal = document.querySelector(".modal")
+        const modalClose = document.querySelector(".modal__content-close")
+        function showModal(){
+            modal.classList.add("open")
+        }
+        function hideModal(){
+            modal.classList.remove("open")
+        }
+        for (const menu of menus){
+            menu.addEventListener("click",showModal)
+        }
+         modalClose.addEventListener("click",hideModal)
+    </script>
+</body>
+</html>
