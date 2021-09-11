@@ -112,6 +112,7 @@
 {
     padding: 20px;
     list-style: none;
+    text-align: center;
 }
 .modal__nav li a 
 {
@@ -234,7 +235,7 @@
 }
 .content__box
 {
-    width: 1193px;
+    width: 1293px;
     height: 704px;
     background: #f5f5f5;
     border-radius: 55px;
@@ -413,11 +414,11 @@
 }
 .content__percent-2::after 
 {
-    width: 60%;
+    width: 90%;
 }
 .content__percent-3::after 
 {
-    width: 60%;
+    width: 70%;
 }
 .content_box-sm-font
 {

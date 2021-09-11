@@ -155,16 +155,14 @@
 }
 }
 @media(max-width:400px){
-    .content__box
-{
-    width: 120%;
-    height: 2301px;
-    border-radius: 55px;
-    padding: 0px;
-    background: none;
-}
+
+    .content__box-top
+    {
+        width: 100%;
+    }
 .content__sm-box
 {
+  
     width: 100%;
 }
 }
