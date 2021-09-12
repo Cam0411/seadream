@@ -241,7 +241,7 @@
 }
 #content__4
 {
-    height: 1450px;
+    height: 1550px;
 }
 .content__4-flex
 {
@@ -365,13 +365,13 @@
 }
 #content__4
 {
-    height: 1300px;
+    height: 1600px;
 }
 .content__4-flex
 {
     display: flex;
     align-items: center;
-    height: 1300px;
+    height: 1600px;
     flex-direction: column;
 }
 #content__4 img 
@@ -614,7 +614,7 @@
     background: url("contact-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 .content__5-flex 
 {
